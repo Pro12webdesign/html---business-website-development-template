@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home - Your Name Web Design</title>
+
+  <!-- Metas -->
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="This is the homepage of the Your name Web Design Company. We design all types of websites from WordPress to code and everything in between. I can wokrk in the content management system of your choice and also build you up a coded website if you so desire.">
+  <meta name="author" content="Tim Unkert">
+
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Mobile Javascript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}</script>
+
+</head>
+<body>
+  <header>
+    <div class="topnav" id="myTopnav">
+      <a href="#" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a href="#services">Services</a>
+      <a href="/blog/index.html">Blog</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+  </header>
+  <div id="showcase">
+    <p align="center">Your Name Web Design - Your description</p>
+  </div>
+  <div id="about">
+    <h1 align="center">About</h1>
+    <img src="img/some-guy.jpeg">
+    <p align="center">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+    <p align="center">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+    <p align="center">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+    <p align="center">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+  </div>
+  <div id="services">
+    <h1 align="center">Services</h1>
+    <h2 align="center">Product 1</h2>
+    <p align="center">Our product 1 includes:</p>
+    <ul align="center">
+      <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+      <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+      <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+      <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+    </ul>
+    <h2 align="center">Product 2</h2>
+    <p align="center">Our Product 2 includess:</p>
+    <ul align="center">
+      <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+      <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+      <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+      <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+    </ul>
+    <h2 align="center">Product 3</h2>
+    <p align="center">Includes all of product 2 and:</p>
+    <ul align="center">
+      <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+      <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+      <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+      <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+    </ul>
+    <h2 align="center">Hourly rate</h2>
+    <p align="center">Sometimes you just need something different entirely. For that, our hourly rate is $(insert price here) an hour.</p>
+    <br>
+    <p class="small-font" align="center">*Insert something here about your prices.</p>
+    <p align="center">Contact me if you are interesting in any of these services!</p>
+  </div>
+  <div id="contact">
+    <h1 align="center">Contact</h1>
+    <p align="center" font-size="18px;">Email: <a href="#">something@yourdomain.com</a></p>
+    <br>
+    <p align="center">Phone: <a href="#">Call (555)-555-5555</a></p>
+    <br>
+    <p align="center">Or fill out the contact form below:</p>
+    <br>
+    <div class="contact_form">
+      <form action="email.php" method="POST">
+        <p align="center">Name</p> <input type="text" name="name" class="type" align="center">
+        <p align="center">Email</p> <input type="text" name="email" class="type" align="center">
+        <p align="center">Message</p><textarea name="message" rows="6" cols="25" class="message"></textarea><br><br>
+        <input type="submit" value="Send" class="button" align="center">
+      </form>
+    </div>
+    <br><br>
+  </div>
+  <div id="latest-post">
+    <h1 align="center">Latest Blogs</h1>
+    <p align="center">Here is where my latest post will be, <a href="blog/april-2018/blog-sample">Click here!</a></p>
+  </div>
+  <footer>
+    <p align="center">Copyright &copy; 2018 your website name. Images courtesy of <a href="https://pexels.com">pexels.com</a> Responsive menu courtesy of W3 schools (modified).</p>
+  </footer>
+
+</body>
+</html>
